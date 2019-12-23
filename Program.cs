@@ -38,9 +38,6 @@ namespace TaskTimerPattern
 
         private static void Process()
         {
-            int i = 0;
-            if (i > 0)
-                throw new Exception();
             logger.Information($"Time is {DateTime.Now.ToString("hh:mm:ss.fff")}. Processing..");
             Thread.Sleep(20);
         }
