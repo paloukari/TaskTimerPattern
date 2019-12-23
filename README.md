@@ -1,4 +1,5 @@
 # TaskTimerPattern
+
 This example demonstrates an approximation alternative to the .NET Framework Timer, built with TLP.
 
 This can be useful for periodic polling scenarios, where the period accuracy is not so important. This implementation might drift a few milliseconds in every period, because it is not based on time based activation but rather on Tasks and measured completion time.
